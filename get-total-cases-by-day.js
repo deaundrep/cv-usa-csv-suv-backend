@@ -1,11 +1,10 @@
 const getDate = require('./get-date')
-const getTotalCases = require('/getTotalCases')
+const getTotalCases = require('./get-total-cases')
 
 const getTotalCasesByDay = function(date ,data) {
   for (const row of data){
-    let dateRow = getDate(row)
-    if (dateRow === date){
-      return getTotalCases
+    if (getDate(row) === date){
+      return getTotalCases(row)
     }
   }
   
