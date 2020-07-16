@@ -1,4 +1,7 @@
-
+const getNewCases = function(arr) {
+  return arr[5]
+  
+}
 
 
 

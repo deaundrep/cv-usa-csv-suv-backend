@@ -1,4 +1,7 @@
-
+const getTotalCases = function(arr) {
+  return arr[4]
+  
+}
 
 
 
